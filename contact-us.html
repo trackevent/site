@@ -48,7 +48,7 @@
                     <div class="form-group"><label>Subject</label><input class="form-control" type="text"></div>
                     <div class="form-group"><label>Email</label><input class="form-control" type="email"></div>
                     <div class="form-group"><label>Message</label><textarea class="form-control"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send</button></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit" onclick="gtag('event', 'send', {'event_category': 'lead','event_action': 'form'});">Send</button></div>
                 </form>
             </div>
         </section>
